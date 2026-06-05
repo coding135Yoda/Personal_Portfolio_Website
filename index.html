@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saumya Tripathi — AI-First Creator & Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Custom cursor -->
+<div id="cursor">
+  <div id="cursor-dot"></div>
+  <div id="cursor-ring"></div>
+</div>
+
+<!-- Aurora background -->
+<div class="aurora-bg">
+  <div class="aurora-blob ab1"></div>
+  <div class="aurora-blob ab2"></div>
+  <div class="aurora-blob ab3"></div>
+  <div class="aurora-blob ab4"></div>
+</div>
+
+<!-- Particle canvas -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <div class="nav-logo">ST ✦</div>
+  <ul class="nav-links">
+    <li><a href="#story">Story</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#entrepreneurship">Ventures</a></li>
+    <li><a href="#vision">Vision</a></li>
+  </ul>
+  <a href="#contact" class="nav-cta">Let's Connect</a>
+</nav>
+
+<!-- ═══════════════════════════════════
+     1. HERO
+═══════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">✦ &nbsp;Open to Opportunities 2026</div>
+      <h1 class="hero-name">
+        <span>Saumya</span>
+        <span>Tripathi.</span>
+      </h1>
+      <p class="hero-tagline">
+        <strong>AI-First Creator & Engineer</strong> building at the intersection of<br>
+        technology, design, and human potential.
+        <br><br>
+        Engineering student turned product thinker — obsessed with
+        <strong>systems that scale</strong> and <strong>ideas that matter</strong>.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch →</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-num counter" data-target="12">0</div>
+          <div class="hero-stat-label">Projects Built</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num counter" data-target="5">0</div>
+          <div class="hero-stat-label">Certifications</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num counter" data-target="3">0</div>
+          <div class="hero-stat-label">Ventures</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-avatar-wrap">
+        <div class="hero-avatar-ring"></div>
+        <img src="image_me.png" alt="Saumya Tripathi" class="hero-avatar" id="heroAvatar">
+        <!-- Floating cards -->
+        <div class="hero-float-card hfc1">
+          <span class="hfc-dot" style="background:#a78bfa"></span>
+          AI & Machine Learning ✨
+        </div>
+        <div class="hero-float-card hfc2">
+          <span class="hfc-dot" style="background:#34d399"></span>
+          Full-Stack Engineer 💻
+        </div>
+        <div class="hero-float-card hfc3">
+          <span class="hfc-dot" style="background:#f472b6"></span>
+          Product Thinker 🚀
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     2. MY STORY TIMELINE
+═══════════════════════════════════ -->
+<section id="story">
+  <div class="section-label">My Story</div>
+  <h2 class="section-title">The Journey <span class="gradient-text">So Far</span></h2>
+  <p class="section-sub">From curious kid fascinated by how things work, to building systems that power the future.</p>
+
+  <div class="timeline">
+    <div class="tl-item">
+      <div class="tl-left">
+        <div class="glass tl-content">
+          <div class="tl-event">The Spark ✨</div>
+          <div class="tl-desc">Discovered a passion for computers and technology. Built first simple programs and fell in love with the idea that logic can create worlds.</div>
+          <span class="tl-tag">Origin Story</span>
+        </div>
+      </div>
+      <div class="tl-center"><div class="tl-dot"></div><div class="tl-year">2018</div></div>
+      <div class="tl-right"></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-left"></div>
+      <div class="tl-center"><div class="tl-dot" style="border-color:var(--accent2);box-shadow:0 0 16px var(--accent2)"></div><div class="tl-year">2021</div></div>
+      <div class="tl-right">
+        <div class="glass tl-content">
+          <div class="tl-event">Engineering Begins 🎓</div>
+          <div class="tl-desc">Enrolled in Computer Science Engineering. Started connecting theory with real-world applications. Joined coding clubs, hackathons, and built my first meaningful project.</div>
+          <span class="tl-tag" style="color:var(--accent2);background:rgba(56,189,248,0.1);border-color:rgba(56,189,248,0.2)">Education</span>
+        </div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-left">
+        <div class="glass tl-content">
+          <div class="tl-event">AI Awakening 🤖</div>
+          <div class="tl-desc">Discovered the potential of AI and ML. Completed multiple certifications, built ML projects, and started seeing every problem through an AI-first lens.</div>
+          <span class="tl-tag" style="color:var(--accent3);background:rgba(244,114,182,0.1);border-color:rgba(244,114,182,0.2)">Pivotal Moment</span>
+        </div>
+      </div>
+      <div class="tl-center"><div class="tl-dot" style="border-color:var(--accent3);box-shadow:0 0 16px var(--accent3)"></div><div class="tl-year">2022</div></div>
+      <div class="tl-right"></div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-left"></div>
+      <div class="tl-center"><div class="tl-dot" style="border-color:var(--accent4);box-shadow:0 0 16px var(--accent4)"></div><div class="tl-year">2023</div></div>
+      <div class="tl-right">
+        <div class="glass tl-content">
+          <div class="tl-event">Building Products 🏗️</div>
+          <div class="tl-desc">Shifted from student to builder. Started creating products, running micro-businesses, and developing a founder's mindset. First internship. Real impact begins.</div>
+          <span class="tl-tag" style="color:var(--accent4);background:rgba(52,211,153,0.1);border-color:rgba(52,211,153,0.2)">Builder Era</span>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="tl-item">
+      <div class="tl-left">
+        <div class="glass tl-content">
+          <div class="tl-event">The Creator Chapter 🌟</div>
+          <div class="tl-desc">Launched digital ventures, started sharing knowledge publicly, built an audience, and began positioning as a future tech leader. Everything is just beginning.</div>
+          <span class="tl-tag" style="color:var(--gold);background:rgba(251,191,36,0.1);border-color:rgba(251,191,36,0.2)">Present</span>
+        </div>
+      </div>
+      <div class="tl-center"><div class="tl-dot" style="border-color:var(--gold);box-shadow:0 0 16px var(--gold)"></div><div class="tl-year">2024–25</div></div>
+      <div class="tl-right"></div>
+    </div> -->
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     3. ACADEMIC JOURNEY
+═══════════════════════════════════ -->
+<section id="academic">
+  <div class="section-label">Education</div>
+  <h2 class="section-title">Academic <span class="gradient-text">Foundation</span></h2>
+  <p class="section-sub">Building a rigorous technical foundation while pursuing every opportunity to learn beyond the classroom.</p>
+
+  <div class="academic-grid">
+    <div class="glass academic-card reveal">
+      <div class="ac-icon" style="background:rgba(167,139,250,0.12)">🎓</div>
+      <div class="ac-deg">Tata Consulting Services</div>
+      <div class="ac-school">System Engineer</div>
+      <div class="ac-period">2026 - present</div>
+      <div class="course-chips">
+        <span class="chip">Data Structures-py</span>
+        <span class="chip">Power Bi</span>
+        <span class="chip">RAG</span>
+        <span class="chip">Numpy</span>
+        <span class="chip">Cloud Computing</span>
+      </div>
+    </div>
+    <div class="glass academic-card reveal">
+      <div class="ac-icon" style="background:rgba(167,139,250,0.12)">🎓</div>
+      <div class="ac-deg">B.Tech — Computer Science Engineering</div>
+      <div class="ac-school">Prestige Institute of Engineering</div>
+      <div class="ac-period">2021 — 2025</div>
+      <div class="ac-gpa"><span class="ac-gpa-label">CGPA</span><span class="ac-gpa-val">8.5 / 10</span></div>
+      <div class="course-chips">
+        <span class="chip">Data Structures</span>
+        <span class="chip">Algorithms</span>
+        <span class="chip">AI/ML</span>
+        <span class="chip">DBMS</span>
+        <span class="chip">OS</span>
+      </div>
+    </div>
+    <div class="glass academic-card reveal" style="transition-delay:0.2s">
+      <div class="ac-icon" style="background:rgba(244,114,182,0.12)">☁️</div>
+      <div class="ac-deg">AWS Cloud Practitioner Essentials</div>
+      <div class="ac-school">Amazon Web Services</div>
+      <div class="ac-period">2023</div>
+      <div class="course-chips">
+        <span class="chip">EC2</span>
+        <span class="chip">Architectural Principles</span>
+        <span class="chip">Account Management</span>
+      </div>
+    </div>
+  </div>
+
+    <!-- <div class="achievement-row">
+      <span class="ach-icon">⭐</span>
+      <div><div class="ach-title">HackerRank 5-Star Python Developer</div><div class="ach-org">HackerRank Platform</div></div>
+      <div class="ach-year">2023</div>
+    </div> -->
+    
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     4. CAREER ROADMAP
+═══════════════════════════════════ -->
+<section id="career">
+  <div class="section-label">Experience</div>
+  <h2 class="section-title">Career <span class="gradient-text">Roadmap</span></h2>
+  <p class="section-sub">Every role has been a deliberate step toward building something meaningful at scale.</p>
+
+  <div class="career-track" style="position:relative">
+  <div class="career-divider"></div>
+
+  <!-- Epsilon Healthcare Solutions -->
+  <div class="career-item reveal">
+    <div class="career-left">
+      <div class="career-period">May 2025 — Apr 2026</div>
+      <div class="career-type">Full-Time Role</div>
+    </div>
+    <div class="glass career-card">
+      <div class="career-role">IT & Digital Marketing Executive</div>
+      <div class="career-company">Epsilon Healthcare Solutions</div>
+      <div class="career-desc">
+        Worked at a healthcare startup managing digital presence, technology operations,
+        website updates, content strategy, lead generation campaigns, and business growth initiatives.
+        Collaborated across technical and marketing teams to improve customer engagement and online visibility.
+      </div>
+      <div class="career-tags">
+        <span class="career-tag">Digital Marketing</span>
+        <span class="career-tag">SEO</span>
+        <span class="career-tag">Content Strategy</span>
+        <span class="career-tag">CRM</span>
+        <span class="career-tag">Business Operations</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RSAC Internship -->
+  <div class="career-item reveal">
+    <div class="career-left">
+      <div class="career-period">Jul 2024 — Aug 2024</div>
+      <div class="career-type">Internship</div>
+    </div>
+    <div class="glass career-card">
+      <div class="career-role">Full Stack Developer Intern</div>
+      <div class="career-company">State Remote Sensing Application Centre (RSAC), Jodhpur</div>
+      <div class="career-desc">
+        Developed and maintained full-stack web applications, worked with databases,
+        APIs, and frontend interfaces while contributing to technology solutions supporting
+        geospatial and government-focused applications.
+      </div>
+      <div class="career-tags">
+        <span class="career-tag">React.js</span>
+        <span class="career-tag">Node.js</span>
+        <span class="career-tag">MongoDB</span>
+        <span class="career-tag">JavaScript</span>
+        <span class="career-tag">REST APIs</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Asmi Global Softwares -->
+  <div class="career-item reveal">
+    <div class="career-left">
+      <div class="career-period">Jul 2023 — Sep 2023</div>
+      <div class="career-type">Internship</div>
+    </div>
+    <div class="glass career-card">
+      <div class="career-role">React.js Developer Intern</div>
+      <div class="career-company">Asmi Global Softwares, Jaipur</div>
+      <div class="career-desc">
+        Built responsive frontend components using React.js, collaborated with development teams,
+        integrated APIs, improved user experience, and contributed to production-ready web applications.
+      </div>
+      <div class="career-tags">
+        <span class="career-tag">React.js</span>
+        <span class="career-tag">JavaScript</span>
+        <span class="career-tag">HTML</span>
+        <span class="career-tag">CSS</span>
+        <span class="career-tag">Git</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Coding Club -->
+  <div class="career-item reveal">
+    <div class="career-left">
+      <div class="career-period">2021 — 2022</div>
+      <div class="career-type">Student Leadership</div>
+    </div>
+    <div class="glass career-card">
+      <div class="career-role">Member — Coding Club</div>
+      <div class="career-company">College Coding Community</div>
+      <div class="career-desc">
+        Participated in coding challenges, technical workshops, hackathons, and peer-learning sessions.
+        Strengthened problem-solving skills and collaborated on various programming and development activities.
+      </div>
+      <div class="career-tags">
+        <span class="career-tag">Problem Solving</span>
+        <span class="career-tag">DSA</span>
+        <span class="career-tag">Teamwork</span>
+        <span class="career-tag">Programming</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     5. TECHNICAL ARSENAL
+═══════════════════════════════════ -->
+<section id="skills">
+  <div class="section-label">Technical Arsenal</div>
+  <h2 class="section-title">Skill <span class="gradient-text">Galaxy</span></h2>
+  <p class="section-sub">A constellation of tools, languages, and frameworks I've mastered across the AI-to-product spectrum.</p>
+
+  <div id="skills-canvas-wrap">
+    <canvas id="skills-canvas"></canvas>
+  </div>
+
+  <div class="skills-legend">
+    <div class="skill-legend-item"><div class="sli-dot" style="background:var(--accent)"></div> AI / ML</div>
+    <div class="skill-legend-item"><div class="sli-dot" style="background:var(--accent2)"></div> Frontend</div>
+    <div class="skill-legend-item"><div class="sli-dot" style="background:var(--accent3)"></div> Backend</div>
+    <div class="skill-legend-item"><div class="sli-dot" style="background:var(--accent4)"></div> Tools & Cloud</div>
+    <div class="skill-legend-item"><div class="sli-dot" style="background:var(--gold)"></div> Design</div>
+  </div>
+
+  <div class="skills-grid" style="margin-top:3rem">
+    <div class="skill-pill reveal"><span class="sp-icon">🐍</span><div class="sp-info"><div class="sp-name">Python</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent),var(--accent2))" data-width="92"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">⚛️</span><div class="sp-info"><div class="sp-name">React.js</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent2),var(--accent4))" data-width="85"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🤖</span><div class="sp-info"><div class="sp-name">TensorFlow / PyTorch</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent),var(--accent3))" data-width="78"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🟩</span><div class="sp-info"><div class="sp-name">Node.js</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent4),var(--accent2))" data-width="80"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🗃️</span><div class="sp-info"><div class="sp-name">SQL / MongoDB</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent2),var(--accent))" data-width="82"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">☁️</span><div class="sp-info"><div class="sp-name">AWS / GCP</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--gold),var(--accent))" data-width="70"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🎨</span><div class="sp-info"><div class="sp-name">Figma</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent3),var(--accent))" data-width="75"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">⚡</span><div class="sp-info"><div class="sp-name">FastAPI / Django</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent),var(--accent4))" data-width="76"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🐙</span><div class="sp-info"><div class="sp-name">Git / DevOps</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent4),var(--accent3))" data-width="83"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">🔗</span><div class="sp-info"><div class="sp-name">LangChain / LLM APIs</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent),var(--accent2))" data-width="72"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">💾</span><div class="sp-info"><div class="sp-name">Docker / Kubernetes</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--accent2),var(--accent3))" data-width="65"></div></div></div></div>
+    <div class="skill-pill reveal"><span class="sp-icon">📊</span><div class="sp-info"><div class="sp-name">Data Analysis / Pandas</div><div class="sp-bar"><div class="sp-fill" style="width:0%;background:linear-gradient(90deg,var(--gold),var(--accent4))" data-width="88"></div></div></div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     6. FEATURED PROJECTS
+═══════════════════════════════════ -->
+<section id="projects">
+  <div class="section-label">Featured Work</div>
+  <h2 class="section-title">Projects That <span class="gradient-text">Matter</span></h2>
+  <p class="section-sub">Building at the edge of what's possible — every project solves a real problem with creative engineering.</p>
+
+  <div class="project-carousel-wrap">
+    <div class="project-carousel" id="projectCarousel">
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon" style="background:rgba(167,139,250,0.12)">🧠</div>
+          <span class="pc-status status-live">LIVE</span>
+        </div>
+        <div class="pc-title">MindBridge AI</div>
+        <div class="pc-desc">An AI-powered mental wellness companion using LLMs and sentiment analysis. Provides personalized coping strategies based on mood patterns and journaling behavior.</div>
+        <div class="pc-stack">
+          <span class="pc-tech">Python</span><span class="pc-tech">GPT-4 API</span><span class="pc-tech">FastAPI</span><span class="pc-tech">React</span><span class="pc-tech">Supabase</span>
+        </div>
+        <div class="pc-metrics">
+          <div class="pc-metric"><div class="pc-metric-val">2.4K</div><div class="pc-metric-label">Users</div></div>
+          <div class="pc-metric"><div class="pc-metric-val">92%</div><div class="pc-metric-label">Satisfaction</div></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon" style="background:rgba(56,189,248,0.12)">🛒</div>
+          <span class="pc-status status-live">LIVE</span>
+        </div>
+        <div class="pc-title">ShopSense</div>
+        <div class="pc-desc">Intelligent e-commerce recommendation engine that analyzes user behavior patterns to serve hyper-personalized product suggestions. Increased conversion rates by 34%.</div>
+        <div class="pc-stack">
+          <span class="pc-tech">TensorFlow</span><span class="pc-tech">Node.js</span><span class="pc-tech">Redis</span><span class="pc-tech">Next.js</span>
+        </div>
+        <div class="pc-metrics">
+          <div class="pc-metric"><div class="pc-metric-val">34%</div><div class="pc-metric-label">Conversion ↑</div></div>
+          <div class="pc-metric"><div class="pc-metric-val">18ms</div><div class="pc-metric-label">Avg Latency</div></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon" style="background:rgba(244,114,182,0.12)">📝</div>
+          <span class="pc-status status-build">IN BUILD</span>
+        </div>
+        <div class="pc-title">NoteForge</div>
+        <div class="pc-desc">Second-brain application powered by RAG. Turns your messy notes, PDFs, and ideas into a searchable, AI-augmented knowledge base with automatic linking and summarization.</div>
+        <div class="pc-stack">
+          <span class="pc-tech">LangChain</span><span class="pc-tech">Pinecone</span><span class="pc-tech">React</span><span class="pc-tech">tRPC</span>
+        </div>
+        <div class="pc-metrics">
+          <div class="pc-metric"><div class="pc-metric-val">500+</div><div class="pc-metric-label">Waitlist</div></div>
+          <div class="pc-metric"><div class="pc-metric-val">Q3 '25</div><div class="pc-metric-label">Launch</div></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon" style="background:rgba(52,211,153,0.12)">🌐</div>
+          <span class="pc-status status-live">LIVE</span>
+        </div>
+        <div class="pc-title">AgriSense Dashboard</div>
+        <div class="pc-desc">IoT + ML platform for smart farming. Real-time soil analysis, weather prediction, and crop yield optimization for smallholder farmers. Deployed across 3 districts.</div>
+        <div class="pc-stack">
+          <span class="pc-tech">Python</span><span class="pc-tech">Arduino</span><span class="pc-tech">AWS IoT</span><span class="pc-tech">Vue.js</span>
+        </div>
+        <div class="pc-metrics">
+          <div class="pc-metric"><div class="pc-metric-val">120</div><div class="pc-metric-label">Farmers</div></div>
+          <div class="pc-metric"><div class="pc-metric-val">22%</div><div class="pc-metric-label">Yield ↑</div></div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="pc-top">
+          <div class="pc-icon" style="background:rgba(251,191,36,0.12)">💬</div>
+          <span class="pc-status status-concept">CONCEPT</span>
+        </div>
+        <div class="pc-title">VoiceFlow Analytics</div>
+        <div class="pc-desc">Speech-to-insight platform that transcribes, analyses, and extracts actionable data from customer support calls. NLP-driven sentiment and topic clustering.</div>
+        <div class="pc-stack">
+          <span class="pc-tech">Whisper AI</span><span class="pc-tech">spaCy</span><span class="pc-tech">Kafka</span><span class="pc-tech">D3.js</span>
+        </div>
+        <div class="pc-metrics">
+          <div class="pc-metric"><div class="pc-metric-val">98%</div><div class="pc-metric-label">Transcription</div></div>
+          <div class="pc-metric"><div class="pc-metric-val">3x</div><div class="pc-metric-label">Faster Insights</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="carousel-nav">
+    <button class="carousel-btn" id="carouselPrev">←</button>
+    <button class="carousel-btn" id="carouselNext">→</button>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     7. BEYOND TECHNOLOGY
+═══════════════════════════════════ -->
+<section id="beyond">
+  <div class="section-label">Beyond The Code</div>
+  <h2 class="section-title">The Human <span class="gradient-text">Behind The Engineer</span></h2>
+  <p class="section-sub">Technology is the medium, but curiosity, creativity, and connection are the real drivers.</p>
+
+  <div class="beyond-grid">
+    <div class="glass beyond-card reveal">
+      <div class="beyond-icon">✍️</div>
+      <div class="beyond-title">Writing & Storytelling</div>
+      <div class="beyond-desc">Documenting the building journey — technical blogs, project postmortems, and reflections on what it means to create in the age of AI.</div>
+    </div>
+    <div class="glass beyond-card reveal" style="transition-delay:0.1s">
+      <div class="beyond-icon">🎨</div>
+      <div class="beyond-title">Visual Design & UX</div>
+      <div class="beyond-desc">Obsessed with the intersection of aesthetics and function. Creating digital experiences that don't just work — they feel right.</div>
+    </div>
+    <div class="glass beyond-card reveal" style="transition-delay:0.2s">
+      <div class="beyond-icon">📚</div>
+      <div class="beyond-title">Avid Reader</div>
+      <div class="beyond-desc">Biographies of builders, philosophy of technology, and behavioral economics. Reading is how ideas compound — across domains, across decades.</div>
+    </div>
+    <div class="glass beyond-card reveal" style="transition-delay:0.3s">
+      <div class="beyond-icon">🎙️</div>
+      <div class="beyond-title">Community & Mentoring</div>
+      <div class="beyond-desc">Giving back is non-negotiable. Mentoring juniors in DSA, hosting workshops, and actively building spaces where women in tech thrive.</div>
+    </div>
+    <div class="glass beyond-card reveal" style="transition-delay:0.4s">
+      <div class="beyond-icon">🧘</div>
+      <div class="beyond-title">Mindfulness & Focus</div>
+      <div class="beyond-desc">The best engineers are the ones who can think clearly under pressure. Meditation and journaling keep the mind as optimized as the code.</div>
+    </div>
+    <div class="glass beyond-card reveal" style="transition-delay:0.5s">
+      <div class="beyond-icon">🌍</div>
+      <div class="beyond-title">Social Impact</div>
+      <div class="beyond-desc">Technology is only as valuable as the lives it changes. Every side project is evaluated through the lens: does this actually help real people?</div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     8. ENTREPRENEURSHIP
+═══════════════════════════════════ -->
+<section id="entrepreneurship">
+  <div class="section-label">Ventures</div>
+  <h2 class="section-title">Entrepreneurship & <span class="gradient-text">Micro-Businesses</span></h2>
+  <p class="section-sub">Building small to think big. Every micro-venture is a live MBA — learning distribution, product-market fit, and customer obsession in real time.</p>
+
+  <div class="venture-grid">
+    <div class="glass venture-card reveal">
+      <div class="vc-header">
+        <div class="vc-logo" style="background:rgba(167,139,250,0.12)">💃</div>
+        <div>
+          <div class="vc-name">Rhythm Fusion Dance Academy</div>
+          <div class="vc-type">Online & Offline Dance Classes</div>
+        </div>
+      </div>
+      <div class="vc-desc">
+        Founded and operate a dance academy offering both online and offline training programs for students of all age groups. Conducting workshops, performance training, choreography sessions, and personalized coaching while building a growing dance community.
+      </div>
+      <div class="vc-metric">
+        <div class="vc-m">
+          <div class="vc-m-val">50+</div>
+          <div class="vc-m-lab">Students</div>
+        </div>
+        <div class="vc-m">
+          <div class="vc-m-val">Online + Offline</div>
+          <div class="vc-m-lab">Mode</div>
+        </div>
+        <div class="vc-m">
+          <div class="vc-m-val">Active</div>
+          <div class="vc-m-lab">Status</div>
+        </div>
+      </div>
+    </div>
+    <div class="glass venture-card reveal" style="transition-delay:0.1s">
+      <div class="vc-header">
+        <div class="vc-logo" style="background:rgba(56,189,248,0.12)">👕</div>
+        <div>
+          <div class="vc-name">Vloth</div>
+          <div class="vc-type">Fashion & Lifestyle Brand</div>
+        </div>
+      </div>
+
+      <div class="vc-desc">
+        Building a modern clothing brand focused on premium designs, streetwear aesthetics, and community-driven fashion. Currently working on brand development, product sourcing, digital presence, and launch strategy.
+      </div>
+
+      <div class="vc-metric">
+        <div class="vc-m">
+          <div class="vc-m-val">2026</div>
+          <div class="vc-m-lab">Launch</div>
+        </div>
+
+        <div class="vc-m">
+          <div class="vc-m-val">Branding</div>
+          <div class="vc-m-lab">Stage</div>
+        </div>
+
+        <div class="vc-m">
+          <div class="vc-m-val">In Progress</div>
+          <div class="vc-m-lab">Status</div>
+        </div>
+      </div>
+    </div>
+    <div class="glass venture-card reveal" style="transition-delay:0.1s">
+      <div class="vc-header">
+        <div class="vc-logo" style="background:rgba(56,189,248,0.12)">📦</div>
+        <div><div class="vc-name">TechPack Templates</div><div class="vc-type">Digital Product Store</div></div>
+      </div>
+      <div class="vc-desc">Selling premium Notion templates, coding cheatsheets, and AI prompt packs to students and professionals. Passive income from intellectual property.</div>
+      <div class="vc-metric">
+        <div class="vc-m"><div class="vc-m-val">340+</div><div class="vc-m-lab">Sales</div></div>
+        <div class="vc-m"><div class="vc-m-val">12</div><div class="vc-m-lab">Products</div></div>
+        <div class="vc-m"><div class="vc-m-val">Passive</div><div class="vc-m-lab">Income</div></div>
+      </div>
+    </div>
+    <!-- <div class="glass venture-card reveal" style="transition-delay:0.2s">
+      <div class="vc-header">
+        <div class="vc-logo" style="background:rgba(52,211,153,0.12)">🚀</div>
+        <div><div class="vc-name">LaunchLab</div><div class="vc-type">College Startup Community</div></div>
+      </div>
+      <div class="vc-desc">Co-founded a student startup ecosystem connecting 200+ aspiring entrepreneurs with mentors, resources, and funding opportunities. 3 startups have raised seed funding.</div>
+      <div class="vc-metric">
+        <div class="vc-m"><div class="vc-m-val">200+</div><div class="vc-m-lab">Members</div></div>
+        <div class="vc-m"><div class="vc-m-val">3</div><div class="vc-m-lab">Funded</div></div>
+        <div class="vc-m"><div class="vc-m-val">Active</div><div class="vc-m-lab">Status</div></div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     9. COLLABORATION
+═══════════════════════════════════ -->
+<section id="collaboration">
+  <div class="section-label">Collaboration</div>
+  <h2 class="section-title">Let's Build <span class="gradient-text">Together</span></h2>
+  <p class="section-sub">Looking for roles, partnerships, and opportunities where I can contribute meaningfully and grow exponentially.</p>
+
+  <div class="collab-grid">
+    <div class="glass collab-card reveal"><div class="collab-icon">🤝</div><div class="collab-title">Full-Time Roles</div><div class="collab-desc">SDE, AI/ML Engineer, or Product roles at product-based companies and high-growth startups. Especially interested in AI-first products.</div></div>
+    <div class="glass collab-card reveal" style="transition-delay:0.08s"><div class="collab-icon">🧪</div><div class="collab-title">Research Collaborations</div><div class="collab-desc">Applied ML research, especially in NLP, recommendation systems, and human-computer interaction. Open to academic and industry partnerships.</div></div>
+    <div class="glass collab-card reveal" style="transition-delay:0.16s"><div class="collab-icon">⚡</div><div class="collab-title">Startup Co-founding</div><div class="collab-desc">If you have a problem worth solving and need a technical co-founder who also thinks product, let's talk. I bring engineering + design + hustle.</div></div>
+    <div class="glass collab-card reveal" style="transition-delay:0.24s"><div class="collab-icon">📣</div><div class="collab-title">Speaking & Content</div><div class="collab-desc">Available for tech talks, workshops, podcast appearances, and writing collaborations on AI, product building, and women in tech.</div></div>
+    <div class="glass collab-card reveal" style="transition-delay:0.32s"><div class="collab-icon">🏗️</div><div class="collab-title">Freelance Projects</div><div class="collab-desc">Selective freelance work for well-funded startups. Specializing in AI-powered applications, full-stack MVPs, and data pipelines.</div></div>
+    <div class="glass collab-card reveal" style="transition-delay:0.40s"><div class="collab-icon">🎓</div><div class="collab-title">Mentorship</div><div class="collab-desc">Actively mentoring students from tier-2 colleges in tech careers. If you're early in your journey, reach out — I remember what it felt like.</div></div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     10. VISION 2035
+═══════════════════════════════════ -->
+<section id="vision">
+  <div class="vision-content">
+    <div class="vision-year">2035</div>
+    <h2 class="vision-title">The <span class="gradient-text">Long Game</span></h2>
+    <p class="vision-desc">A decade from now, I want to be known not just for building great products — but for building the people who build the products.</p>
+
+    <!-- <div class="vision-goals">
+      <div class="vision-goal reveal">
+        <div class="vg-icon">🏢</div>
+        <div class="vg-text"><strong>Founded a deep-tech startup</strong>Using AI to democratize access to expert knowledge in healthcare, education, or finance for underserved communities.</div>
+      </div>
+      <div class="vision-goal reveal" style="transition-delay:0.1s">
+        <div class="vg-icon">👩‍💻</div>
+        <div class="vg-text"><strong>50,000 students mentored</strong>Built programs and platforms that help the next generation of women engineers from Tier-2/3 cities break into top tech roles.</div>
+      </div>
+      <div class="vision-goal reveal" style="transition-delay:0.2s">
+        <div class="vg-icon">🌍</div>
+        <div class="vg-text"><strong>Global AI policy contributor</strong>Shaping how AI is governed, deployed, and regulated — bringing the builder's perspective to policymakers worldwide.</div>
+      </div>
+      <div class="vision-goal reveal" style="transition-delay:0.3s">
+        <div class="vg-icon">📖</div>
+        <div class="vg-text"><strong>Author & Thought Leader</strong>A published book on the intersection of AI, creativity, and human potential — and a community of builders who think beyond the algorithm.</div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════
+     11. TESTIMONIALS
+═══════════════════════════════════ -->
+<!-- <section id="testimonials">
+  <div class="section-label">Testimonials</div>
+  <h2 class="section-title">What People <span class="gradient-text">Say</span></h2>
+
+  <div class="testimonials-grid">
+    <div class="glass testimonial-card reveal">
+      <div class="tc-quote">"</div>
+      <div class="tc-text">Saumya is the rare engineer who bridges technical depth with product intuition. She shipped features in her internship that our team had been debating for months — and made them beautiful too.</div>
+      <div class="tc-author">
+        <div class="tc-avatar">RK</div>
+        <div><div class="tc-name">Rahul Kumar</div><div class="tc-role">CTO, TechStartup Bangalore</div></div>
+      </div>
+    </div>
+    <div class="glass testimonial-card reveal" style="transition-delay:0.12s">
+      <div class="tc-quote">"</div>
+      <div class="tc-text">As a mentor figure in our club, Saumya transformed how we think about learning. Her workshop on ML systems had a waitlist within 2 hours — she has a gift for making complex ideas accessible.</div>
+      <div class="tc-author">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,var(--aurora2),var(--aurora4))">AS</div>
+        <div><div class="tc-name">Ankit Singh</div><div class="tc-role">President, College Tech Society</div></div>
+      </div>
+    </div>
+    <div class="glass testimonial-card reveal" style="transition-delay:0.24s">
+      <div class="tc-quote">"</div>
+      <div class="tc-text">I hired Saumya for a freelance project expecting good code. I got great code, better design, proactive communication, and a product that outperformed every benchmark. Truly exceptional talent.</div>
+      <div class="tc-author">
+        <div class="tc-avatar" style="background:linear-gradient(135deg,var(--aurora3),var(--aurora4))">PM</div>
+        <div><div class="tc-name">Priya Mehta</div><div class="tc-role">Founder, EduTech Startup</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div> -->
+
+<!-- ═══════════════════════════════════
+     12. CONTACT
+═══════════════════════════════════ -->
+<section id="contact">
+  <div class="contact-glow"></div>
+  <div class="contact-inner">
+    <div class="section-label" style="justify-content:center">Contact</div>
+    <h2 class="section-title" style="text-align:center">Ready to Build <span class="gradient-text">Something?</span></h2>
+    <p class="section-sub" style="text-align:center;margin:0 auto 1.5rem">Whether you're a founder, recruiter, fellow builder, or just someone with an interesting problem — my inbox is open.</p>
+
+    <div class="contact-availability">Available for full-time roles & select projects</div>
+
+    <a href="mailto:saumya.tripathi@email.com" class="contact-email">pinakdance@email.com</a>
+
+    <div class="contact-socials">
+      <a href="https://www.linkedin.com/in/imsaumya-tripathi/" class="social-btn" title="LinkedIn">in</a>
+      <a href="https://github.com/coding135Yoda" class="social-btn" title="GitHub">⌥</a>
+      <a href="https://www.instagram.com/pinak._dance" class="social-btn" title="Twitter">𝕏</a>
+      <a href="#" class="social-btn" title="Behance">Be</a>
+      <a href="#" class="social-btn" title="Resume">↓</a>
+    </div>
+
+    <div style="margin-top:3rem">
+      <a href="#" class="btn-primary" style="margin-right:1rem">Download Resume</a>
+      <a href="#" class="btn-secondary">Book a Call →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-brand">Saumya Tripathi ✦</div>
+  <div>Designed with intention. Built with passion. 2025</div>
+ <!-- <div style="font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--text3)">xyz</div> -->
+</footer>
+
+<script>
+// ── CURSOR ──
+const cursorDot = document.getElementById('cursor-dot');
+const cursorRing = document.getElementById('cursor-ring');
+let mx = 0, my = 0, rx = 0, ry = 0;
+document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+function animCursor() {
+  cursorDot.style.left = mx + 'px'; cursorDot.style.top = my + 'px';
+  rx += (mx - rx) * 0.12; ry += (my - ry) * 0.12;
+  cursorRing.style.left = rx + 'px'; cursorRing.style.top = ry + 'px';
+  requestAnimationFrame(animCursor);
+}
+animCursor();
+
+// ── SCROLL PROGRESS ──
+const scrollProg = document.getElementById('scrollProgress');
+document.addEventListener('scroll', () => {
+  const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+  scrollProg.style.transform = `scaleX(${pct})`;
+});
+
+// ── PARTICLES ──
+const canvas = document.getElementById('particle-canvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
+
+const particles = [];
+for (let i = 0; i < 80; i++) {
+  particles.push({
+    x: Math.random() * canvas.width,
+    y: Math.random() * canvas.height,
+    vx: (Math.random() - 0.5) * 0.3,
+    vy: (Math.random() - 0.5) * 0.3,
+    size: Math.random() * 1.5 + 0.5,
+    alpha: Math.random() * 0.4 + 0.1,
+    color: ['#a78bfa','#38bdf8','#f472b6','#34d399'][Math.floor(Math.random()*4)]
+  });
+}
+function drawParticles() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  particles.forEach(p => {
+    p.x += p.vx; p.y += p.vy;
+    if (p.x < 0) p.x = canvas.width; if (p.x > canvas.width) p.x = 0;
+    if (p.y < 0) p.y = canvas.height; if (p.y > canvas.height) p.y = 0;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+    ctx.fillStyle = p.color;
+    ctx.globalAlpha = p.alpha;
+    ctx.fill();
+  });
+  // connections
+  ctx.globalAlpha = 1;
+  particles.forEach((a, i) => {
+    particles.slice(i+1).forEach(b => {
+      const dx = a.x - b.x, dy = a.y - b.y;
+      const dist = Math.sqrt(dx*dx+dy*dy);
+      if (dist < 100) {
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y);
+        ctx.strokeStyle = `rgba(167,139,250,${0.06*(1-dist/100)})`;
+        ctx.lineWidth = 0.5; ctx.stroke();
+      }
+    });
+  });
+  requestAnimationFrame(drawParticles);
+}
+drawParticles();
+
+// ── SKILLS GALAXY ──
+const sc = document.getElementById('skills-canvas');
+const scCtx = sc.getContext('2d');
+const scWrap = document.getElementById('skills-canvas-wrap');
+
+function resizeSC() {
+  sc.width = scWrap.offsetWidth; sc.height = scWrap.offsetHeight;
+}
+resizeSC(); window.addEventListener('resize', resizeSC);
+
+const skillNodes = [
+  { name: 'Python', cat: 0, size: 48, x:0, y:0, vx:0.2, vy:0.15 },
+  { name: 'TensorFlow', cat: 0, size: 38, x:0, y:0, vx:-0.15, vy:0.2 },
+  { name: 'PyTorch', cat: 0, size: 34, x:0, y:0, vx:0.25, vy:-0.1 },
+  { name: 'LangChain', cat: 0, size: 30, x:0, y:0, vx:-0.2, vy:-0.2 },
+  { name: 'React', cat: 1, size: 44, x:0, y:0, vx:0.1, vy:0.25 },
+  { name: 'Next.js', cat: 1, size: 36, x:0, y:0, vx:-0.25, vy:0.1 },
+  { name: 'TypeScript', cat: 1, size: 32, x:0, y:0, vx:0.2, vy:0.2 },
+  { name: 'Node.js', cat: 2, size: 40, x:0, y:0, vx:-0.1, vy:-0.25 },
+  { name: 'FastAPI', cat: 2, size: 34, x:0, y:0, vx:0.25, vy:0.05 },
+  { name: 'MongoDB', cat: 2, size: 30, x:0, y:0, vx:-0.15, vy:0.15 },
+  { name: 'AWS', cat: 3, size: 38, x:0, y:0, vx:0.15, vy:-0.2 },
+  { name: 'Docker', cat: 3, size: 32, x:0, y:0, vx:-0.2, vy:0.1 },
+  { name: 'Git', cat: 3, size: 28, x:0, y:0, vx:0.1, vy:0.2 },
+  { name: 'Figma', cat: 4, size: 34, x:0, y:0, vx:-0.05, vy:-0.15 },
+  { name: 'After Effects', cat: 4, size: 28, x:0, y:0, vx:0.2, vy:-0.05 },
+];
+const catColors = ['#a78bfa','#38bdf8','#f472b6','#34d399','#fbbf24'];
+
+// Initialize positions
+skillNodes.forEach(n => {
+  n.x = sc.width * 0.1 + Math.random() * sc.width * 0.8;
+  n.y = sc.height * 0.1 + Math.random() * sc.height * 0.8;
+});
+
+let hoveredNode = null;
+sc.addEventListener('mousemove', e => {
+  const rect = sc.getBoundingClientRect();
+  const mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  hoveredNode = skillNodes.find(n => {
+    const dx = n.x - mx, dy = n.y - my;
+    return Math.sqrt(dx*dx+dy*dy) < n.size;
+  }) || null;
+  sc.style.cursor = hoveredNode ? 'none' : 'none';
+});
+
+function drawSkills() {
+  if (!sc.width) { requestAnimationFrame(drawSkills); return; }
+  scCtx.clearRect(0, 0, sc.width, sc.height);
+  
+  // connections
+  skillNodes.forEach((a, i) => {
+    skillNodes.slice(i+1).forEach(b => {
+      if (a.cat === b.cat) {
+        const dx = a.x-b.x, dy = a.y-b.y;
+        const dist = Math.sqrt(dx*dx+dy*dy);
+        if (dist < 200) {
+          scCtx.beginPath();
+          scCtx.moveTo(a.x, a.y); scCtx.lineTo(b.x, b.y);
+          scCtx.strokeStyle = catColors[a.cat] + '22';
+          scCtx.lineWidth = 1; scCtx.stroke();
+        }
+      }
+    });
+  });
+
+  skillNodes.forEach(n => {
+    n.x += n.vx; n.y += n.vy;
+    if (n.x < n.size) n.vx = Math.abs(n.vx);
+    if (n.x > sc.width-n.size) n.vx = -Math.abs(n.vx);
+    if (n.y < n.size) n.vy = Math.abs(n.vy);
+    if (n.y > sc.height-n.size) n.vy = -Math.abs(n.vy);
+
+    const isHov = n === hoveredNode;
+    const r = isHov ? n.size * 1.3 : n.size;
+    
+    // glow
+    const grad = scCtx.createRadialGradient(n.x, n.y, 0, n.x, n.y, r*1.5);
+    grad.addColorStop(0, catColors[n.cat] + '33');
+    grad.addColorStop(1, 'transparent');
+    scCtx.beginPath(); scCtx.arc(n.x, n.y, r*1.5, 0, Math.PI*2);
+    scCtx.fillStyle = grad; scCtx.fill();
+
+    // circle
+    scCtx.beginPath(); scCtx.arc(n.x, n.y, r, 0, Math.PI*2);
+    scCtx.fillStyle = isHov ? catColors[n.cat] + '44' : catColors[n.cat] + '22';
+    scCtx.fill();
+    scCtx.strokeStyle = catColors[n.cat] + (isHov ? 'cc' : '66');
+    scCtx.lineWidth = isHov ? 2 : 1;
+    scCtx.stroke();
+
+    // label
+    scCtx.fillStyle = isHov ? catColors[n.cat] : 'rgba(240,238,232,0.7)';
+    scCtx.font = `${isHov ? 600 : 400} ${Math.max(10, r * 0.38)}px 'DM Sans', sans-serif`;
+    scCtx.textAlign = 'center'; scCtx.textBaseline = 'middle';
+    scCtx.fillText(n.name, n.x, n.y);
+  });
+  requestAnimationFrame(drawSkills);
+}
+drawSkills();
+
+// ── SCROLL REVEAL ──
+const revealEls = document.querySelectorAll('.reveal, .tl-item, .career-item, .achievement-row');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('visible'), i * 50);
+    }
+  });
+}, { threshold: 0.1 });
+revealEls.forEach(el => observer.observe(el));
+
+// ── COUNTERS ──
+const counters = document.querySelectorAll('.counter');
+const countObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      const el = e.target;
+      const target = parseInt(el.dataset.target);
+      let cur = 0;
+      const step = target / 30;
+      const timer = setInterval(() => {
+        cur = Math.min(cur + step, target);
+        el.textContent = Math.floor(cur) + (target > 10 ? '+' : '');
+        if (cur >= target) clearInterval(timer);
+      }, 50);
+      countObs.unobserve(el);
+    }
+  });
+}, { threshold: 0.5 });
+counters.forEach(c => countObs.observe(c));
+
+// ── SKILL BARS ──
+const fills = document.querySelectorAll('.sp-fill');
+const barObs = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.style.width = e.target.dataset.width + '%';
+      barObs.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.2 });
+fills.forEach(f => barObs.observe(f));
+
+// ── PROJECT CAROUSEL ──
+let carouselIdx = 0;
+const carousel = document.getElementById('projectCarousel');
+const cards = carousel.querySelectorAll('.project-card');
+const totalCards = cards.length;
+
+function updateCarousel() {
+  const cardWidth = cards[0].offsetWidth + 24; // gap
+  carousel.style.transform = `translateX(-${carouselIdx * cardWidth}px)`;
+}
+
+document.getElementById('carouselNext').addEventListener('click', () => {
+  if (carouselIdx < totalCards - 3) carouselIdx++;
+  else carouselIdx = 0;
+  updateCarousel();
+});
+document.getElementById('carouselPrev').addEventListener('click', () => {
+  if (carouselIdx > 0) carouselIdx--;
+  else carouselIdx = Math.max(0, totalCards - 3);
+  updateCarousel();
+});
+
+window.addEventListener('resize', updateCarousel);
+
+// ── 3D CARD TILT ──
+document.querySelectorAll('.project-card').forEach(card => {
+  card.addEventListener('mousemove', e => {
+    const rect = card.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+    card.style.transform = `translateY(-8px) rotateX(${-y*8}deg) rotateY(${x*8}deg)`;
+  });
+  card.addEventListener('mouseleave', () => {
+    card.style.transform = '';
+  });
+});
+
+// ── AVATAR: use real photo from uploads ──
+// Try to display the art portrait as avatar placeholder
+const heroAv = document.getElementById('heroAvatar');
+// Use a gradient placeholder styled as avatar
+// heroAv.style.cssText = 'background: linear-gradient(135deg, #7c3aed22 0%, #0ea5e922 50%, #ec489922 100%); display:flex; align-items:center; justify-content:center; font-size:5rem; font-family:serif; border-radius:50%;';
+// heroAv.setAttribute('alt', 'ST');
+// Swap to inline div with initials
+//heroAv.outerHTML = `<div id="heroAvatar" style="width:100%;height:100%;border-radius:50%;background:radial-gradient(ellipse at 30% 30%,#7c3aed44,#0ea5e933,#ec489922);border:2px solid rgba(255,255,255,0.1);display:flex;align-items:center;justify-content:center;font-family:'Syne',sans-serif;font-size:3.5rem;font-weight:800;letter-spacing:-0.04em;color:rgba(240,238,232,0.6)">ST</div>`;
+
+// ── NAV ACTIVE ──
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+const sectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      navLinks.forEach(a => {
+        a.style.color = a.getAttribute('href') === '#'+e.target.id ? 'var(--text)' : '';
+      });
+    }
+  });
+}, { threshold: 0.5 });
+sections.forEach(s => sectionObserver.observe(s));
+</script>
+</body>
+</html>
